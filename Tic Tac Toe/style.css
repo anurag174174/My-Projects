@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    padding: 0 12px;
+} 
+
+nav ul{
+    list-style-type: none;
+
+}
+.gameContainer{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgb(205, 205, 225);
+}
+.gameInfo{
+    padding: 0 34px;
+}
+.imgbox img{
+    width: 0;
+    transition: 3s linear;
+}  
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 100;
+}
