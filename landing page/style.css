@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+   
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0px 30px;
+   
+}
+#nav h4{
+    font-size: 15px;
+    font-weight: 550;
+
+}
+#nav i{
+    background-color: black;
+    color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 50%;
+}
+#center{
+    padding: 50px 90px;
+    width: 100%;
+
+   
+}
+#center h1{
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: 5.5vw;
+}
+#center-in{
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#center-in p{
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 1.5vw;
+}
+#right{
+   
+    width: 20%;
+}
+.elem{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-top: 2px solid black;
+    
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+.elem i{
+  
+    font-size: 20px;
+    opacity: 0;
+ }
+
+ .elem:hover i{
+    opacity: 1;
+}
+.elem:hover{
+    cursor: pointer;
+    background-color: rgb(246, 235, 235);
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+#bottom{
+    height: 38%;
+    width: 100%;
+
+    background: url(https://images.unsplash.com/photo-1538407079030-945c7d84f042?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+    object-fit: cover;
+
+    background-position: center ;
+
+}
+
+@media (max-widht){
+    
+}
